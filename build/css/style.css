@@ -5114,6 +5114,7 @@ h2 {
     margin-left: 0;
     padding: 7px 0;
     height: 32px;
+    width: 100%;
   }
 }
 @media (hover: hover) {
@@ -5607,6 +5608,9 @@ h2 {
   height: 25px;
   border-radius: 50%;
 }
+.social-network li.focus-visible:focus {
+  outline: none;
+}
 
 .social-network a {
   display: -webkit-box;
@@ -5628,6 +5632,7 @@ h2 {
 @media (hover: hover) {
   .social-network a:hover:not(.focus-visible) {
     background-color: #103aae;
+    outline: none;
   }
   .social-network a:hover:not(.focus-visible) use {
     fill: #ffffff;
@@ -5635,6 +5640,7 @@ h2 {
 }
 .social-network a.focus-visible:focus {
   background-color: #103aae;
+  outline: none;
 }
 .social-network a.focus-visible:focus use {
   fill: #ffffff;

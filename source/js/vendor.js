@@ -27,7 +27,7 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 
   const updateSwiperOptions = () => {
-    if (window.innerWidth >= 768 && window.innerWidth < 1199) {
+    if (window.innerWidth >= 768 && window.innerWidth < 1200) {
       trainerSwiper.params.slidesPerView = 2;
     } else if (window.innerWidth < 768) {
       trainerSwiper.params.slidesPerView = 1;
