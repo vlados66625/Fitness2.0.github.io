@@ -103,3 +103,10 @@
     order: 1;
   }
 }
+
+.contacts__container a {
+  @include focus {
+    outline: 1px solid $color-sapphire;
+    outline-offset: 5px;
+  }
+}
