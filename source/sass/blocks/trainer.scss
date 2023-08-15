@@ -21,7 +21,7 @@
 
 .trainer__header {
   padding-left: 2px;
-  margin-bottom: 48px;
+  margin-bottom: 47px;
 
   @include vp-1199 {
     margin-bottom: 31px;
@@ -156,10 +156,10 @@
 .trainer__photo-container {
   display: inline-block;
   position: relative;
-  width: 100%;
 
   @include vp-1199 {
     max-width: 360px;
+    width: 100%;
   }
 
   @include vp-767 {
@@ -269,13 +269,9 @@
 }
 
 .trainer__swiper-slide {
-  padding: 0 20px;
   width: min-content;
   display: inline-block;
-
-  @media (max-width: 1366px) {
-    padding: 0 5px;
-  }
+  text-align: center;
 
   @include vp-1199 {
     padding: 0 2.52%;

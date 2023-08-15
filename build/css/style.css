@@ -1549,7 +1549,7 @@ button,
 }
 @media (max-width: 1366px) {
   .container--trainer {
-    max-width: 89.5%;
+    max-width: 88%;
   }
 }
 @media (max-width: 1199px) {
@@ -3407,7 +3407,7 @@ h2 {
 
 .trainer__header {
   padding-left: 2px;
-  margin-bottom: 48px;
+  margin-bottom: 47px;
 }
 @media (max-width: 1199px) {
   .trainer__header {
@@ -3553,11 +3553,11 @@ h2 {
 .trainer__photo-container {
   display: inline-block;
   position: relative;
-  width: 100%;
 }
 @media (max-width: 1199px) {
   .trainer__photo-container {
     max-width: 360px;
+    width: 100%;
   }
 }
 @media (max-width: 767px) {
@@ -3680,16 +3680,11 @@ h2 {
 }
 
 .trainer__swiper-slide {
-  padding: 0 20px;
   width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
   display: inline-block;
-}
-@media (max-width: 1366px) {
-  .trainer__swiper-slide {
-    padding: 0 5px;
-  }
+  text-align: center;
 }
 @media (max-width: 1199px) {
   .trainer__swiper-slide {
@@ -4121,7 +4116,7 @@ h2 {
 }
 @media (max-width: 1199px) {
   .stocks__container-main {
-    padding: 91px 0 100px;
+    padding: 88px 0 100px;
   }
 }
 @media (max-width: 767px) {
@@ -4763,7 +4758,7 @@ h2 {
 
 .reviews__header {
   text-align: center;
-  margin-bottom: 37px;
+  margin-bottom: 34px;
 }
 @media (max-width: 1199px) {
   .reviews__header {
@@ -4772,7 +4767,7 @@ h2 {
 }
 @media (max-width: 767px) {
   .reviews__header {
-    margin-bottom: 33px;
+    margin-bottom: 31px;
   }
 }
 
