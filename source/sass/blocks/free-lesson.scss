@@ -63,11 +63,13 @@
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
+  width: 190px;
 
   @include vp-1199 {
     margin-left: 2px;
     padding: 6px 0;
     height: 30px;
+    width: 206px;
   }
 
   @include vp-767 {

@@ -5097,12 +5097,14 @@ h2 {
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
+  width: 190px;
 }
 @media (max-width: 1199px) {
   .free-lesson__form-container input[type=text] {
     margin-left: 2px;
     padding: 6px 0;
     height: 30px;
+    width: 206px;
   }
 }
 @media (max-width: 767px) {
